@@ -1,0 +1,315 @@
+header {
+    padding: 8px;
+    background-color: #859AFA; 
+    align-items: center;
+    display: flex;
+}
+body {
+    margin:0
+}
+nav a {color:beige; 
+text-decoration: none;
+font-size: 16px;
+font-weight: 900;
+}
+nav {
+    display: flex ;
+    justify-content: space-around;
+    margin-left: auto;
+width: 500px;
+height: 70px;
+align-items: center;
+}
+.cat{
+
+ width: 15px;
+ height: 15px;
+    
+} 
+header a {
+    color:blanchedalmond;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+.cartinka{
+    width:290px ;
+    height:125px ;
+}
+
+input {
+  background-color: #859AFA;
+  width: 360px;
+  height: 30px;
+  padding: 10px;
+  /* text-align: center; */
+  border: 2px solid white;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+
+.input:focus {
+  color: rgb(0, 255, 255);
+  background-color: #212121;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
+
+.corzina {
+    height:30px;
+    width:30px;
+}
+.poisk{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.corzina-block{
+    display: inline;
+}
+
+.link{text-decoration: none;
+color: black;}
+
+
+
+.motor {
+display: flex;
+    align-items: center;
+justify-content: space-evenly;
+width: 100%;
+}
+
+.motor p {
+    text-transform: uppercase;
+    
+}
+
+.m1:hover {
+background-color: black;
+color:white;
+transition: 1s;
+cursor: pointer;
+
+}
+
+.m1 {
+  width: 125px;
+  height: 30px;
+  background-color: rgb(119, 178, 206);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 8px 3px 3px -3px rgba(66, 68, 90, 1);
+
+  cursor: pointer;
+}
+
+.m1 p {
+  margin: 0;
+  font-size: 14px;
+  
+  word-break: break-word;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.podval {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.spiski {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  
+
+}
+
+
+
+li {
+  list-style: none;
+  line-height: 30px;
+  color:#795555 ;
+}
+
+
+.spiski {
+  margin-left: 25px;
+  margin-top: 25px;
+border-bottom: 1px solid #212121;
+padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+
+
+.telephone img{
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  
+}
+
+
+.telephone {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 2;
+  left: 25px;
+  bottom: 25px;
+  overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 6px 6px 6px rgb(151, 151, 151);
+}
+  
+
+
+
+
+
+
+
+
+
+.telefon h5 {
+  color: rgb(80, 80, 80);
+}
+
+
+
+
+.house {
+  width: 15px;
+  height: 15px;
+
+}
+
+
+
+.home {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 80px;
+border:1px solid grey;
+height: 25px;
+margin-top: 30px;
+padding-left: 6px;
+padding-right: 6px;
+background-color: rgb(167, 166, 166, 0.3);
+
+
+
+}
+
+
+.dostavka {
+  font-size: 13px;
+}
+
+
+
+.icons img {
+width: 30px;
+height: 30px;
+object-fit: contain;
+}
+
+main {
+  margin: 22px;
+}
+
+.oplata-block ul li{
+list-style-type: disc;
+
+}
+
+
+.oplata-block > li {
+  list-style: decimal;
+  color:#212121;
+}
+
+
+.aga img {
+  width: 700px;
+  height: 420px;
+}
+
+
+.aga {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.aga h2 {
+  font-size: 30px;
+  color: rgb(128, 128, 128, 0.7);
+}
+
+
+.aga p {
+  font-size: 17px;
+  line-height: 30px;
+  color: rgb(128, 128, 128, 0.9);
+}
